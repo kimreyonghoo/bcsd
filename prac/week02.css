@@ -1,0 +1,21 @@
+body{
+    background-color: aliceblue;
+}
+#inputtext{
+    border-radius: 5px;
+    width:50vw;
+    box-shadow: 0px 0px 5px 5px blur;
+}
+#toli{
+    background-color: aqua;
+}
+
+.btn{
+    border-radius: 10px;
+    color: white;
+    background-color: brown;
+}
+#head{
+    color: rgb(0, 244, 57);
+    background-color: beige;
+}
