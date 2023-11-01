@@ -18,3 +18,9 @@ ask(
   ()=>alert("동의하셨습니다."),
   ()=>alert("취소 버튼을 누르셨습니다.")
 );
+const city1=`seoul`;
+const city2=`London`;
+const city3=`paris`;
+console.log(`저는 ${city1}에 살아요`);
+console.log(`저는 ${city2}에 살아요`);
+console.log(`저는 ${city3}에 살아요`);
