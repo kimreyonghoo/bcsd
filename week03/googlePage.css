@@ -1,0 +1,87 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:95vw;
+    height: 80vh;
+
+}
+.topnav{
+    display: flex;
+    justify-content: end;
+    width: 95vw;
+    height: 10vh;
+}
+.mainLogo{
+    font-size: 50px;
+    position: relative;
+    top:-5px;
+}
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border:1px solid gray;
+    box-shadow: 10px;
+}
+input:hover{
+    background-color:rgb(166, 166, 166) ;
+}
+.quickStart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.faveIcon{
+    display: flex;
+    margin: 5px;
+    width:60px;
+    height: 60px;
+    background-color: gray;
+}
+.iconOne{
+    position: relative;
+    left: 40px;
+}
+.iconTwo{
+    position: relative;
+    left: -40px;
+}
+.endNav{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+.settingBar{
+    display: flex;
+    flex-direction: row;
+    width:180px;
+    height:30px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px;
+}
+.pencil{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 800px) {
+    .settingBar{
+        width:30px;
+    }
+    .settingBar>div{
+        display: none;
+    }
+}
