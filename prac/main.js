@@ -24,3 +24,9 @@ const city3=`paris`;
 console.log(`저는 ${city1}에 살아요`);
 console.log(`저는 ${city2}에 살아요`);
 console.log(`저는 ${city3}에 살아요`);
+
+console.log(`Hi`);
+setTimeout(function cb(){
+  console.log(`there`)},5000);
+console.log(`JSconfEU`);
+

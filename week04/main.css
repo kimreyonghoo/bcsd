@@ -1,0 +1,25 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.computer,.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 200px;
+}
+.buttonCom,.buttonUser{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.buttonCom:hover,.buttonUser:hover{
+   background-color: gray;
+}
+.counts{
+    display: flex;
+}
